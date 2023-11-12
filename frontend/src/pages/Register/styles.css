@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    /* height: 280px; */
+    width: 330px;
+    background-color: '#fff';
+    margin-top: 110px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 260px;
+    }    
+}

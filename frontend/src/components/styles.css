@@ -1,0 +1,44 @@
+.input{
+    height: 44px;
+    width: 260px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 11px;
+}
+
+.button{
+    height: 44px;
+    width: 120px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    margin: 10px 0 0px 0;
+    cursor: pointer;
+}
+
+.fa{
+    color: #000;
+    margin: 0 8px 0 0;
+}
+
+input{
+    border: none;
+    width: 210px;
+}
+
+input:focus {
+    outline:none;
+}
+
+@media (max-width: 768px) {
+    .input{
+        width: 210px;
+    } 
+}

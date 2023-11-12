@@ -1,0 +1,48 @@
+.edit_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit_profile_card{
+    /* height: 330px; */
+    width: 330px;
+    background-color: '#fff';
+    margin-top: 110px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link{
+    color: #000;
+    text-decoration: none;
+}
+
+.select_image{
+    height:100px;
+    width:100px;
+    margin:10px 10px 20px 0;
+    border-radius: 50px;
+    object-fit: cover;
+    color: #000;
+    font-size: 66px;
+    background-color: #0003;
+}
+
+.change_image{
+    color: #000;
+    text-align: center;
+    height:30px;
+    width:200px;
+    margin-top: -15px;
+}
+
+@media (max-width: 768px) {
+    .edit_profile_card{
+        width: 260px;
+    }    
+}
